@@ -17,6 +17,7 @@ ALTER TABLE testchange CHANGE a a INT COMMENT 'this is column a1';
 ALTER TABLE test ADD COLUMNS ( a STRING COMMENT 'First column', b varchar(100));
 
 ALTER TABLE test REPLACE COLUMNS ( a INT a1 Int, b STRING b1 String, c Varchar(100) c1 varchar(100));
-Select * from table where table.col1 is not true and table.col2 is true
-Select * from table where table.col1 is not false and table.col2 is false
-Select * from table where table.col1 is not true and table.col2 is not 1
+                                                                                               
+Select * from table where table.col1 is not true and table.col2 is true;
+Select * from table where table.col1 is not false and table.col2 is false;
+Select * from table where table.col1 is not true and table.col2 is not 1;
