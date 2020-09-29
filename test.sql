@@ -11,3 +11,4 @@ ALTER TABLE test_change CHANGE a a1 INT;
 ALTER TABLE test_change CHANGE a1 a2 STRING AFTER b;
 ALTER TABLE test_change CHANGE c c1 INT FIRST;
 ALTER TABLE testchange CHANGE a a INT COMMENT 'this is column a1';
+select * from a where a.col is true;
